@@ -8,30 +8,83 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Blazor Study</title>
+    <title>한국블레이저개발자모임</title>
+
   </head>
   <body>
-    <div class="container text-center">
-      <h1>Blazor Study</h1>
 
-      <div class="row">
-        <div class="col">
-          <p>
-            <img src="images/blazing-bulb.png" width="300" height="300" alt="Blazing bulb &ndash; created by Bing Image Creator with prompt of 'blazing bulb'">
-          </p>
-        </div>
-      </div>
+    <!--
+      소개                > 단일 메뉴로 모임 소개만
+        모임 소개
+        공지 및 뉴스
+        후원사
 
-      <div class="row">
-        <div class="col">
-          <p class="align-middle">
-            <img src="https://cdn.simpleicons.org/github/181717" width="32" height="32"> <a href="https://github.com/blazorstudy">https://github.com/blazorstudy</a>
-          </p>
-        </div>
+      블레이저
+        공식홈페이지
+        튜터리얼
+      
+      커뮤니티 활동
+        월간 밋업
+        GitHub
+        Festa               > 이후 추가
+        페이스북 그룹
+        2023년 활동
+      
+      후원                  > 이후 추가
+        캠페인 후원
+        기업 후원
+      
+    -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">한국블레이저개발자모임</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">소개 <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle" href="#" id="navbarActions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              커뮤니티 활동
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarActions">
+              <a class="dropdown-item" href="./2023.html">2023년 활동</a>
+              <a class="dropdown-item" href="https://github.com/blazorstudy" target="_blank" >GitHub</a>
+              <a class="dropdown-item" href="https://www.facebook.com/groups/blazor.korea" target="_blank">페이스북 그룹</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarBlazor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blazor 공식자료
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarBlazor">
+              <a class="dropdown-item" href="https://dotnet.microsoft.com/ko-kr/apps/aspnet/web-apps/blazor" target="_blank" >공식 페이지</a>
+              <a class="dropdown-item" href="https://learn.microsoft.com/ko-kr/training/modules/blazor-introduction" target="_blank">학습 페이지</a>
+            </div>
+          </li>
+        </ul>
       </div>
+    </nav>
+
+    <div class="container">
+      <figure class="figure" style="margin-top: 10px;">
+        <img src="./images/2023.jpg" class="figure-img img-fluid rounded" alt="...">
+        <!-- <figcaption class="figure-caption">밋업소개</figcaption> -->
+      </figure>
+
+      <p>
+        <h1>한국블레이저개발자 모임 (Blazor Korea)</h1>
+        <h5>.NET 기반의 Blazor 기술을 공유하고 이야기하는 커뮤니티입니다</h5>
+        <h5>매월 4번째 목요일에 밋업을 개최하고 있습니다</h5>
+      </p>
+
     </div>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
